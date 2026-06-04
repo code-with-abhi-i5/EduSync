@@ -7,6 +7,7 @@ import img1 from '../assets/image.png'
 import img2 from '../assets/image copy.png'
 import img3 from '../assets/image copy 2.png'
 import img4 from '../assets/image copy 3.png'
+import img5 from '../assets/image copy 4.png'
 
 const screenshots = [
   { id: 1, title: 'Home Dashboard', description: 'Your personalized campus command center', src: heroImg },
@@ -14,6 +15,7 @@ const screenshots = [
   { id: 3, title: 'Results & Analytics', description: 'Comprehensive performance insights', src: img2 },
   { id: 4, title: 'Smart Notifications', description: 'Never miss important updates', src: img3 },
   { id: 5, title: 'Study Materials', description: 'All your notes in one place', src: img4 },
+  { id: 6, title: 'Profile', description: 'View your profile', src: img5 },
 ]
 
 export default function Screenshots() {
@@ -28,7 +30,7 @@ export default function Screenshots() {
       <div className="container-main mx-auto relative z-10">
         <SectionHeading
           badge="Screenshots"
-          title="See EduSync in action"
+          title="See SmartSpire in action"
           description="Explore the beautiful, intuitive interface designed for the modern campus experience."
         />
 
@@ -122,11 +124,10 @@ export default function Screenshots() {
               <button
                 key={i}
                 onClick={() => setActiveIndex(i)}
-                className={`w-2 h-2 rounded-full transition-all duration-300 ${
-                  i === activeIndex
-                    ? 'w-8 bg-primary-600 dark:bg-primary-400'
-                    : 'bg-surface-300 dark:bg-surface-600 hover:bg-surface-400 dark:hover:bg-surface-500'
-                }`}
+                className={`w-2 h-2 rounded-full transition-all duration-300 ${i === activeIndex
+                  ? 'w-8 bg-primary-600 dark:bg-primary-400'
+                  : 'bg-surface-300 dark:bg-surface-600 hover:bg-surface-400 dark:hover:bg-surface-500'
+                  }`}
                 aria-label={`Go to screenshot ${i + 1}`}
               />
             ))}

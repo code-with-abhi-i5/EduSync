@@ -71,8 +71,8 @@ export default function Hero() {
               className="flex flex-wrap gap-4 mb-10"
             >
               <a
-                href="#download"
-                onClick={(e) => handleClick(e, '#download')}
+                href="/SmartSpire.apk"
+                download
                 className="btn-primary text-base px-7 py-3.5"
               >
                 Download App
@@ -221,7 +221,7 @@ export default function Hero() {
                 <div className="relative rounded-[2rem] overflow-hidden bg-white">
                   <img
                     src={heroImg}
-                    alt="EduSync App Interface"
+                    alt="SmartSpire App Interface"
                     className="w-full h-auto"
                     loading="eager"
                   />

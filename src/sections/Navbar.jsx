@@ -63,8 +63,8 @@ export default function Navbar({ theme, toggleTheme }) {
               <ThemeToggle theme={theme} toggleTheme={toggleTheme} />
 
               <a
-                href="#download"
-                onClick={(e) => handleNavClick(e, '#download')}
+                href="/SmartSpire.apk"
+                download
                 className="hidden sm:inline-flex items-center gap-2 px-5 py-2.5 bg-primary-600 hover:bg-primary-700 text-white text-sm font-semibold rounded-xl transition-all duration-300 hover:shadow-lg hover:shadow-primary-500/25 active:scale-[0.98]"
               >
                 <Download className="w-4 h-4" />
@@ -129,8 +129,8 @@ export default function Navbar({ theme, toggleTheme }) {
                 ))}
 
                 <motion.a
-                  href="#download"
-                  onClick={(e) => handleNavClick(e, '#download')}
+                  href="/SmartSpire.apk"
+                  download
                   initial={{ opacity: 0, x: 20 }}
                   animate={{ opacity: 1, x: 0 }}
                   transition={{ delay: 0.4 }}

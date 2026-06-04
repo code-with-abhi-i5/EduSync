@@ -12,7 +12,7 @@ export default function Testimonials() {
         <SectionHeading
           badge="Testimonials"
           title="Loved by students & educators"
-          description="Hear from the people who use EduSync every day to transform their campus experience."
+          description="Hear from the people who use SmartSpire every day to transform their campus experience."
         />
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">

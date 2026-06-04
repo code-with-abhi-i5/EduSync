@@ -6,6 +6,7 @@ import WhyEduSync from '../sections/WhyEduSync'
 import Testimonials from '../sections/Testimonials'
 import FAQ from '../sections/FAQ'
 import DownloadCTA from '../sections/DownloadCTA'
+import ContactSection from '../sections/ContactSection'
 
 export default function LandingPage() {
   return (
@@ -18,6 +19,7 @@ export default function LandingPage() {
       <Testimonials />
       <FAQ />
       <DownloadCTA />
+      <ContactSection />
     </>
   )
 }

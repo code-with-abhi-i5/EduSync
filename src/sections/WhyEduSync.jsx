@@ -64,9 +64,9 @@ export default function WhyEduSync() {
 
       <div className="container-main mx-auto relative z-10">
         <SectionHeading
-          badge="Why EduSync"
-          title="Why campuses choose EduSync"
-          description="See why hundreds of institutions trust EduSync to power their digital campus transformation."
+          badge="Why SmartSpire"
+          title="Why campuses choose SmartSpire"
+          description="See why hundreds of institutions trust SmartSpire to power their digital campus transformation."
         />
 
         <div className="space-y-6 sm:space-y-8 max-w-4xl mx-auto">

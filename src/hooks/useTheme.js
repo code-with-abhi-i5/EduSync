@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react'
 export function useTheme() {
   const [theme, setTheme] = useState(() => {
     if (typeof window !== 'undefined') {
-      const stored = localStorage.getItem('edusync-theme')
+      const stored = localStorage.getItem('smartspire-theme')
       if (stored) return stored
       return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
     }
@@ -17,7 +17,7 @@ export function useTheme() {
     } else {
       root.classList.remove('dark')
     }
-    localStorage.setItem('edusync-theme', theme)
+    localStorage.setItem('smartspire-theme', theme)
   }, [theme])
 
   const toggleTheme = () => {

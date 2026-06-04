@@ -37,7 +37,7 @@ export default function DownloadCTA() {
             </motion.div>
 
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-display font-bold text-white mb-4 leading-tight">
-              Get the EduSync App
+              Get the SmartSpire App
             </h2>
 
             <p className="text-lg text-white/80 mb-8 max-w-lg leading-relaxed">
@@ -47,7 +47,8 @@ export default function DownloadCTA() {
             <div className="flex flex-wrap gap-4">
               {/* Google Play Button */}
               <motion.a
-                href="#"
+                href="/SmartSpire.apk"
+                download
                 whileHover={{ scale: 1.03 }}
                 whileTap={{ scale: 0.98 }}
                 className="inline-flex items-center gap-3 px-6 py-3.5 bg-black hover:bg-surface-900 text-white rounded-xl transition-colors shadow-lg"
@@ -63,7 +64,8 @@ export default function DownloadCTA() {
 
               {/* App Store Button */}
               <motion.a
-                href="#"
+                href="/SmartSpire.apk"
+                download
                 whileHover={{ scale: 1.03 }}
                 whileTap={{ scale: 0.98 }}
                 className="inline-flex items-center gap-3 px-6 py-3.5 bg-black hover:bg-surface-900 text-white rounded-xl transition-colors shadow-lg"
@@ -94,7 +96,7 @@ export default function DownloadCTA() {
                 <div className="rounded-[2rem] overflow-hidden bg-white">
                   <img
                     src={heroImg}
-                    alt="EduSync App"
+                    alt="SmartSpire App"
                     className="w-full h-auto"
                     loading="lazy"
                   />

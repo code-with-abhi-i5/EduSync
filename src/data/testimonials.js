@@ -6,7 +6,7 @@ export const testimonials = [
     institution: 'IIT Delhi',
     avatar: null,
     rating: 5,
-    feedback: 'EduSync has completely transformed how I manage my academics. The attendance tracking and smart notifications keep me on top of everything. It feels like having a personal academic assistant!',
+    feedback: 'SmartSpire has completely transformed how I manage my academics. The attendance tracking and smart notifications keep me on top of everything. It feels like having a personal academic assistant!',
   },
   {
     id: 2,
@@ -15,7 +15,7 @@ export const testimonials = [
     institution: 'NIT Trichy',
     avatar: null,
     rating: 5,
-    feedback: 'As a faculty member, EduSync has streamlined my entire workflow. From publishing results to managing announcements, everything is seamless. The analytics dashboard is incredibly insightful.',
+    feedback: 'As a faculty member, SmartSpire has streamlined my entire workflow. From publishing results to managing announcements, everything is seamless. The analytics dashboard is incredibly insightful.',
   },
   {
     id: 3,
@@ -33,7 +33,7 @@ export const testimonials = [
     institution: 'BITS Pilani',
     avatar: null,
     rating: 5,
-    feedback: 'EduSync has helped us digitize our entire campus operations. Student engagement has increased by 40% since we adopted the platform. Truly a comprehensive solution.',
+    feedback: 'SmartSpire has helped us digitize our entire campus operations. Student engagement has increased by 40% since we adopted the platform. Truly a comprehensive solution.',
   },
   {
     id: 5,
@@ -51,6 +51,6 @@ export const testimonials = [
     institution: 'SRM University',
     avatar: null,
     rating: 5,
-    feedback: 'Deploying EduSync across our campus was incredibly smooth. The security features are robust, and the admin dashboard gives us complete control. Outstanding platform.',
+    feedback: 'Deploying SmartSpire across our campus was incredibly smooth. The security features are robust, and the admin dashboard gives us complete control. Outstanding platform.',
   },
 ]
