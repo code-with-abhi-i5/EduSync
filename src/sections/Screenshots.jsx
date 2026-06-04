@@ -3,13 +3,17 @@ import { motion, AnimatePresence } from 'framer-motion'
 import { ChevronLeft, ChevronRight, X } from 'lucide-react'
 import SectionHeading from '../components/SectionHeading'
 import heroImg from '../assets/heroimg.png'
+import img1 from '../assets/image.png'
+import img2 from '../assets/image copy.png'
+import img3 from '../assets/image copy 2.png'
+import img4 from '../assets/image copy 3.png'
 
 const screenshots = [
   { id: 1, title: 'Home Dashboard', description: 'Your personalized campus command center', src: heroImg },
-  { id: 2, title: 'Attendance Tracker', description: 'Real-time attendance monitoring', src: heroImg },
-  { id: 3, title: 'Results & Analytics', description: 'Comprehensive performance insights', src: heroImg },
-  { id: 4, title: 'Smart Notifications', description: 'Never miss important updates', src: heroImg },
-  { id: 5, title: 'Study Materials', description: 'All your notes in one place', src: heroImg },
+  { id: 2, title: 'Attendance Tracker', description: 'Real-time attendance monitoring', src: img1 },
+  { id: 3, title: 'Results & Analytics', description: 'Comprehensive performance insights', src: img2 },
+  { id: 4, title: 'Smart Notifications', description: 'Never miss important updates', src: img3 },
+  { id: 5, title: 'Study Materials', description: 'All your notes in one place', src: img4 },
 ]
 
 export default function Screenshots() {
